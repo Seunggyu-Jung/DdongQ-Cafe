@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&family=Nanum+Pen+Script&family=Single+Day&display=swap');
+
+body {
+    background: orange;
+    font-family: 'Single Day', cursive;
+}
+
+header {
+    width: 600px;
+    height: 300px;
+    display: block;
+    background: orange;
+    border: 1px solid orange;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    text-align: center;
+    font-weight: bold;
+    text-align: 48px;
+}
+
+header h1 {
+    font-size: 60px;
+}
+
+header p {
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 25%;
+}
+
+
+header .img1 {
+    width: 20%;
+    object-fit: fill;
+    text-align: left;
+    float: left;
+    margin: 10% 0 20px 40px;
+    border: 1px solid orange;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+section {
+    background: orange;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    gap : 32px 24px;
+}
+
+article {
+    width: 300px;
+    border: 3px solid #eee;
+    border-radius: 4px;
+    background: orange;
+    text-align: center;
+    font-weight: bold;
+    margin:auto;
+}
+
+article img {
+    width: 126px;
+    height: 174px;
+    aspect-ratio: 126/174;
+    object-fit: fill;
+}
+
+footer {
+    width: 50%;
+    height: 250px;
+    background: orange;
+    text-align: center;
+    margin: auto;
+}
+
+footer div {
+    margin-top: 30px;
+    padding-top: 25px;
+    height: 50px;
+    border: 3px solid black;
+    border-radius: 10px;
+    clear: both;
+}
+
+footer p:first-child {
+    margin: 0;
+    float: left;
+}
+
+footer p:nth-child(2) {
+    margin: 0;
+    float: right;
+}
+
+footer img {
+    width: 100px;
+    border: 1px solid orange;
+    border-radius: 50%;
+    box-sizing: border-box;
+    vertical-align: bottom;
+}
+
+footer h2 {
+    font-size: 50px;
+    vertical-align: top;
+    clear: both;
+}
